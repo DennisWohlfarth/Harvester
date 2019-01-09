@@ -1,6 +1,11 @@
 package Grain;
 
+
+import Harvester.Position;
+
 public class Wheat {
+
+    private Position position;
 
     private short numberOfGrain;
 
@@ -11,5 +16,9 @@ public class Wheat {
 
     public short getNumberOfGrain() {
         return numberOfGrain;
+    }
+
+    public void setPosition(Position position) {
+        this.position = position;
     }
 }
